@@ -1,0 +1,107 @@
+
+
+body,
+div,
+ul,
+li,
+dl,
+dt,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+fieldset,
+legend,
+p,
+select,
+table,
+th,
+td,
+tr,
+textarea,
+button,
+form {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+/* a 링크 초기화 */
+a {
+    color: initial;
+    text-decoration: none;
+    outline: none;
+}
+
+
+
+/* 리스트 초기화*/
+ol,
+ul,
+li,
+dl dt,
+dd {
+    list-style: none;
+    margin: 0;
+}
+
+
+
+/* 폰트 */
+.font-anton {
+    font-style: normal;
+    font-weight: normal;
+    font-family: 'Anton', sans-serif;
+
+}
+
+.font-roboto {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.font-oswald {
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+
+
+
+.ir-su {
+    overflow: hidden;
+    position: absolute;
+    width: 0;
+    height: 0;
+    line-height: 0;
+    text-indent: -9999px;
+}
+
+
+
+
+
+
+
+@font-face {
+    font-family: 'GmarketSansLight';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GmarketSansBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
