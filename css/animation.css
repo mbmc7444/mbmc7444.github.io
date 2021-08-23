@@ -350,7 +350,9 @@ body .bg img {
 }
 
 
-
+.sns-wrap div:last-child {
+    margin-bottom: 0;
+    }
 
 
 /* nav */
