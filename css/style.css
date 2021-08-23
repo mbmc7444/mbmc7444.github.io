@@ -45,7 +45,7 @@ body.show {
 
 .loading>#count {
     color: #444;
-    font-family: 'anton';
+    font-family: 'Anton', sans-serif;
     transition: all 1s ease;
     -webkit-transition: all 1s ease;
     position: absolute;
@@ -314,7 +314,7 @@ body .bg img {
     align-self: center;
     font-weight: bolder;
     /* font-family: 'Antonio'; */
-    font-family: 'Anton';
+    font-family: 'Anton', sans-serif;;
     font-weight: normal;
     font-variant: small-caps;
     text-align: center;
@@ -649,7 +649,7 @@ margin-bottom: 0;
 .sec2 .strength h1 {
     font-size: 4vw;
     text-transform: uppercase;
-    font-family: 'anton';
+    font-family: 'Anton', sans-serif;;
 }
 
 .sec2 .strength ul {
@@ -700,7 +700,7 @@ margin-bottom: 0;
 }
 
 .sec3 .skill-wrap ul {
-    font-family: 'anton', sans-serif;
+    font-family: 'Anton', sans-serif;, sans-serif;
     /* text-transform: uppercase; */
     text-align: center;
     display: flex;
