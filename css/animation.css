@@ -334,9 +334,11 @@ body .bg img {
 
 
 .sec1 .sns-wrap {
-    position: absolute;
-    right: 3.5vw;
+    position: fixed;
+    right: 5vw;
     bottom: 3vw;
+    z-index: 1;
+    transform: translateX(50%);
 }
 
 .sec1 .sns-wrap div {
