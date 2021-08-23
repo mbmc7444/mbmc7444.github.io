@@ -314,7 +314,8 @@ body .bg img {
     align-self: center;
     font-weight: bolder;
     /* font-family: 'Antonio'; */
-    font-family: 'Anton', sans-serif;;
+    font-family: 'Anton', sans-serif;
+    ;
     font-weight: normal;
     font-variant: small-caps;
     text-align: center;
@@ -372,21 +373,23 @@ body .bg img {
 
 
 
- .sns-wrap {
+.sns-wrap {
     position: fixed;
     right: 5vw;
     bottom: 3vw;
     z-index: 1;
     transform: translateX(50%);
 }
+
 .sns-wrap div {
     width: 3vw;
     height: 3vw;
     background: #017c63;
     margin-bottom: 2vw
 }
+
 .sns-wrap div:last-child {
-margin-bottom: 0;
+    margin-bottom: 0;
 }
 
 
@@ -477,11 +480,11 @@ margin-bottom: 0;
 
 
 
- .sec2 .about em{
-     font-style: normal;
-     display: block;
-     margin-top: 2vw;
-} 
+.sec2 .about em {
+    font-style: normal;
+    display: block;
+    margin-top: 2vw;
+}
 
 
 
@@ -649,7 +652,8 @@ margin-bottom: 0;
 .sec2 .strength h1 {
     font-size: 4vw;
     text-transform: uppercase;
-    font-family: 'Anton', sans-serif;;
+    font-family: 'Anton', sans-serif;
+    ;
 }
 
 .sec2 .strength ul {
@@ -700,7 +704,9 @@ margin-bottom: 0;
 }
 
 .sec3 .skill-wrap ul {
-    font-family: 'Anton', sans-serif;, sans-serif;
+    font-family: 'Anton', sans-serif;
+    ,
+    sans-serif;
     /* text-transform: uppercase; */
     text-align: center;
     display: flex;
