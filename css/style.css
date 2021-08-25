@@ -1,6 +1,5 @@
 body,
 html {
-
     font-family: 'GmarketSansLight';
     -webkit-font-smoothing: antialiased;
     min-width: 320px;
@@ -23,7 +22,7 @@ body.show {
     left: 0;
     z-index: 9999;
     pointer-events: none;
-    opacity: 0.04;
+    opacity: 0.05;
     width: 100%;
     height: 100%;
 
