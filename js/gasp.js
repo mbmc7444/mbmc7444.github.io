@@ -9,13 +9,7 @@
 
 setTimeout(() => {
     let tl = gsap.timeline();
-    // gsap.to(".sec1 .logo > div:nth-child(2)", { height: "8.5vw" })
-    // gsap.to(".sec1 .button .button-box", { height: "2.5vw" })
-    // gsap.to(".sec1 .button .button-title", { opacity: 1 })
     gsap.to("nav", { opacity: 1 })
-    // tl.to(".sec1 .logo > div:nth-child(1)", { height: "1.5vw" })
-    // tl.to(".sec1 .logo > div:nth-child(3)", { height: "8vw" })
-    // tl.to(".sec1 .logo > div:nth-child(4)", { height: "5vw" })
     let maintitleSpan = document.querySelectorAll(".main-title span")
 
     //maintitle 
@@ -32,7 +26,6 @@ setTimeout(() => {
     tl.to(".main-title > span:nth-child(1)", { opacity: 1, y: 0, stagger: 0.1, rotation: 0, duration: 0.3 });
     tl.to(".main-title > span:nth-child(3)", { opacity: 1, y: 0, stagger: 0.1, rotation: 0, duration: 0.3 });
     tl.to(".main-title > span:nth-child(5)", { opacity: 1, y: 0, stagger: 0.1, rotation: 0, duration: 0.3 });
-    // tl.to(".main-title > span:nth-child(7)", { opacity: 1, y: 0, stagger: 0.1, rotation: 0, duration: 0.3 });
 
 }, 2000)
 
@@ -41,14 +34,6 @@ setTimeout(function () {
 }, 1000)
 
 
-
-
-
-
-// let logoAfter = document.querySelector(".logo div:nth-child(4)")
-// setTimeout(function () {
-//     logoAfter.classList.add('active')
-// }, 8000)
 
 
 

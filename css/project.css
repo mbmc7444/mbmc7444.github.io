@@ -461,6 +461,7 @@ body .bg img {
 .project-wrap>li {
     display: flex;
     margin-top: 5vw;
+
 }
 
 .project-wrap>li>div {
@@ -504,26 +505,31 @@ body .bg img {
     content: "";
     position: absolute;
     background-color: #fff;
-    width: 50%;
+    width: 0;
     height: 100%;
     top: 0;
+    transition:  0.5s all ease;
+
+}
+.project-wrap>li.active  .project-img div.img-block {
+    animation: projectAni 1.5s forwards;
 
 }
 
 .project-wrap>li .project-img div.img-block:nth-child(2) {
-    content: "";
-    position: absolute;
-    background-color: #fff;
-    width: 50%;
-    height: 100%;
-    top: 0;
     left: 50%;
-    display:none;
+    transition:  0.5s all ease;
 
+}
+.project-wrap>li.active .project-img div.img-block:nth-child(2) {
+    animation: projectAni 1.5s forwards;
 }
 
 .project-wrap img {
     width: 100%;
+    opacity: 0;
+    transition:  all 0.5s ease;
+    transition-delay:  0.5s;
 }
 
 
@@ -886,5 +892,19 @@ footer .line-wrap span {
     100% {
         -webkit-transform: translate3d(-100%, 0, 0);
         transform: translate3d(-100%, 0, 0)
+    }
+}
+
+
+@keyframes projectAni {
+    0% {
+        width: 0;
+    }
+
+    50% {
+        width: 50%;
+    }
+    100% {
+        width: 0;
     }
 }
