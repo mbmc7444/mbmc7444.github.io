@@ -17,7 +17,7 @@ window.onload = function () {
         document.querySelectorAll('.transition .transition-box').forEach((boxElem) => {
           boxElem.classList.remove('active')
         })
-      }, 1000)
+      }, 500)
     }, 100);
     setTimeout(() => {
       let tl = gsap.timeline();
@@ -26,7 +26,7 @@ window.onload = function () {
       transition.classList.remove("active");
       tl.to(".transition", { top: 0 + "%" })
       tl.to(".transition", { opacity: 1 })
-    }, 2000);
+    }, 1500);
   }
 
   function pageFn() {
@@ -41,7 +41,7 @@ window.onload = function () {
         })
         setTimeout(() => {
           window.location.href = locationName;
-        }, 2000);
+        }, 1000);
       });
     });
   };
